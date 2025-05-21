@@ -1,0 +1,179 @@
+{
+  "main": {
+    "id": "4dcdca9f626e0139",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba97cb863ef0575b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6458b5c04b8a5739",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Survey of DP from Facial Expression【2019-115】/A Survey-Automatic DP from Facial Expressions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "A Survey-Automatic DP from Facial Expressions"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a16adc49becbd1fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "c91f36355da01c75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53b5777063058b0a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "d22171942e8bf78f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "962b4d0f5eacbfa7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "d45e00cbcf15c14f",
+    "type": "split",
+    "children": [
+      {
+        "id": "c819eda233483376",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d8ce704a25b7bfd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Survey of DP from Facial Expression【2019-115】/A Survey-Automatic DP from Facial Expressions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "A Survey-Automatic DP from Facial Expressions 的反向链接列表"
+            }
+          },
+          {
+            "id": "a6d4f480a0acf8f7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Survey of DP from Facial Expression【2019-115】/A Survey-Automatic DP from Facial Expressions.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "A Survey-Automatic DP from Facial Expressions 的出链列表"
+            }
+          },
+          {
+            "id": "b09b18457b6245f6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "b5f96591e7a12b77",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Survey of DP from Facial Expression【2019-115】/A Survey-Automatic DP from Facial Expressions.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "A Survey-Automatic DP from Facial Expressions 的大纲"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 212.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "6458b5c04b8a5739",
+  "lastOpenFiles": [
+    "STA-LSTM/STA-LSTM.pdf",
+    "STA-LSTM/时间内空间注意力基址.md",
+    "README.md",
+    "Survey of DP from Facial Expression【2019-115】/A Survey-Automatic DP from Facial Expressions.md",
+    "Survey of DP from Facial Expression【2019-115】/Survey of PD through Facial Expression【2021】.pdf"
+  ]
+}
