@@ -43,7 +43,7 @@
 提取的特征被后处理(post-processed)以增加辨别力或提取最重要的信息。
 - 主成分分析法(PCA)：常用的方法，用于选择最重要的特征维度，将特征降维
 - 多视图距离度量学习来融合LBP，HOG和Gabor特征(multiview distance metric learning to fuse LBP, HOG, and Gabor features)
-- 基于谱回归的半监督迁移学习方法来学习提取的拓扑直方图（HoT）特征的最具鉴别力的特征维度(a semi-supervised transfer learning method based on spectral regression to learn the most discriminative feature dimensions of the extracted Histogram of Topological (HoT) features)
+- 基于谱回归的半监督迁移学习方法来学习提取的拓扑直方图（HoT）特征的最具鉴别力的特征维度(a semi-supervised transfer learning method based on spectral regression to learn the most discriminative feature dimensions of the xetracted Histogram of Topological (HoT) features)
 ## 学习方法
 - 几乎所有分类和回归任务都是有监督的
 ### 学习任务
