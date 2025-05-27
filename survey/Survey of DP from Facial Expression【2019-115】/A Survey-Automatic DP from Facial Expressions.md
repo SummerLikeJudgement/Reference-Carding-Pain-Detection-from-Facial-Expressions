@@ -10,6 +10,7 @@
 | Infant COPE                                                     | 足跟采血             | 18-72小时26例**新生儿**（13例男性，13例女性;高加索人） | 204张面部图像（疼痛图像：60张）                 | 帧级别：疼痛、哭泣、脚跟摩擦、鼻空气刺激、休息                                                                   |
 - UNBC-McMaster Shoulder Pain Expression Archive Database是最广泛使用的公开数据集。BioVid Heat Pain Database是另一个较大的数据集。
 - 很少有数据包含老年人。
+
 # 技术路线
 1. one-step：基于直接从输入图像或图像序列提取的几何、纹理或时间特征来预测疼痛或疼痛强度。即直接从输入特征学习疼痛目标。
 2. two-step：使用或需要中间学习阶段，用于根据AU或AU强度来描述面部表情。即学习面部表情的中间表示，基于此进行疼痛检测。
@@ -23,8 +24,8 @@
 ## 特征(features)
 ### 特征提取
 1. 空间特征(spatial features)：提供了对图像中可见内容（面部形状、面部纹理）的静态描述。
-	1. 几何特征(geometric features)：通过基于面部特征点的形状描述方案(pointed-based shape description schemes)来描述面部的形状。特征点的位置或点之间的距离和角度等高阶特征用作几何特征。
-	2. 纹理特征(textural features)：描述了面部的外观和面部特征。包括面部特征的边缘和皱纹及褶皱。
+	1. 几何特征(geometric features)：通过基于面部特征点的形状描述方案来描述面部的形状。此方案定义了面部特征上的点位置，特征点的位置或点之间的距离和角度等高阶特征用作几何特征。
+	2. 纹理特征(textural features)：描述了面部的外观和面部特征。包括面部特征的边缘描述，及出现在其上或周围的皱纹及褶皱。
 		1. 原始像素强度(raw pixel intensites)
 		2. 人为手动设计(hand-crafted)：Gabor filters、Local Binary Patterns(LBP)、Histogram of Oriented Gradients(HOG)
 		3. 纯学习(self-learning)
