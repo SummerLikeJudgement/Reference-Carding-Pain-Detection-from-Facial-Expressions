@@ -17,10 +17,11 @@
 | Automatic Detection of Pain from Facial Expressions: A Survey-[[Survey of PD through Facial Expression【2021】.pdf]]（2019-115） | 总结过去十年中面部表情检测的工作，收集整理了数据集、技术路线、特征分类、学习任务等，也讨论了当前的挑战，未来的研究路线。 |
 
 ## 具体文献
-| 标题                                                                                                                                                                         | 技术路线                                                                                                      | 数据集 |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --- |
-| Automated pain detection using facial expression in adult patients with a customized spatial temporal attention long short-term memory (STA-LSTM) network-[[STA-LSTM.pdf]] | 数据来自从新加坡两家医院的200名成年患者中收集了2008段视频，裁剪为1s片段，通过调整视频帧的采样间隔平衡数据集，将面部3D归一化，减少了不同角度面部带来的实验误差，模型速度较慢，但是实现了更加准确的识别。 |     |
-| Pain Recognition Using Artificial Neural Network[[Pain Recognition Using Artificial Neural Network【2006】.pdf]]                                                             | 基于肤色进行人脸位置检测，后提取面部位置特征+边缘区域形状特征，使用传统3层神经网络进行学习                                                            |     |
+| 标题                                                                                                                                                                             | 技术路线                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
+| Automated pain detection using facial expression in adult patients with a customized spatial temporal attention long short-term memory (STA-LSTM) network-[[STA-LSTM.pdf]]     | 数据来自从新加坡两家医院的200名成年患者中收集了2008段视频，裁剪为1s片段，通过调整视频帧的采样间隔平衡数据集，将面部3D归一化，减少了不同角度面部带来的实验误差，模型速度较慢，但是实现了更加准确的识别。 |
+| Pain Recognition Using Artificial Neural Network-[[Pain Recognition Using Artificial Neural Network【2006】.pdf]]（2006）                                                          | 基于肤色进行人脸位置检测，后提取面部位置特征+边缘区域形状特征，使用传统3层神经网络进行训练                                                            |
+| Relevance Vector Machine Learning for Neonate Pain Intensity Assessment Using Digital Imaging-[[RVM learning for neonate pain intensity assessment using【2010】.pdf]]（2010-128） | 使用相关向量机(RVM)计算面部表情属于类别的后验概率，以概率评估疼痛强度                                                                     |
 # 公开数据库
 
 | 名称                                                              | 疼痛               | 数据来源                                | 数据规模                               | 注释/标签                                                                                     |

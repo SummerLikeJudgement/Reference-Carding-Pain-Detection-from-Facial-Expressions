@@ -29,4 +29,4 @@
 传统神经网络（NN），将提取的特征作为输入，使用标准误差反向传播算法对疼痛和无痛人脸进行分类。
 构建总共3层网络：输入层（5位置特征+16形状特征）-隐藏层（10个单元）-输出层（是否疼痛）
 # 数据集
-来自the Psychophysiology Laboratory Database of University of Northern British Columbia, Canada的数据
+来自the Psychophysiology Laboratory Database of University of Northern British Columbia, Canada的不同肤色成人的数据
