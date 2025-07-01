@@ -24,8 +24,8 @@
 ## 特征(features)
 ### 特征提取
 1. 空间特征(spatial features)：提供了对图像中可见内容（面部形状、面部纹理）的静态描述。
-	1. 几何特征(geometric features)：通过基于面部特征点的形状描述方案来描述面部的形状。此方案定义了面部特征上的点位置，特征点的位置或点之间的距离和角度等高阶特征用作几何特征。
-	2. 纹理特征(textural features)：描述了面部的外观和面部特征。包括面部特征的边缘描述，及出现在其上或周围的皱纹及褶皱。
+	1. 几何特征(geometric features/shape information)：通过基于面部特征点的形状描述方案来描述面部的形状。此方案定义了面部特征上的点位置，特征点的位置或点之间的距离和角度等高阶特征用作几何特征。
+	2. 纹理特征(textural features/appearance information)：描述了面部的外观和面部特征。包括面部特征的边缘描述，及出现在其上或周围的皱纹及褶皱。
 		1. 原始像素强度(raw pixel intensites)
 		2. 人为手动设计(hand-crafted)：Gabor filters、Local Binary Patterns(LBP)、Histogram of Oriented Gradients(HOG)
 		3. 纯学习(self-learning)
