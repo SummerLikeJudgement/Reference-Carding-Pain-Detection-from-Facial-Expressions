@@ -1,20 +1,11 @@
-**对于面部疼痛检测的文献整理仓库**
+**疼痛检测的文献整理仓库**
 
-- 特征分类
-#spatial-features #spatiotemporal-features
-#geometric-features #textural-features
-- 技术路线分类
-#one-step #two-step
-- 学习任务
-#pain-nopain #discrete-pain #continuous-pain 
-
--------
-
-# 文献整理
+# 背景
 ## 关键词
 - automatic pain detection/automatic pain assessment
 - facial expression analysis
 - facial dynamics
+-------
 ## 综述
 | 标题                                                                                                                         | 内容                                                           |
 | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
@@ -40,18 +31,18 @@
 | [[Pain assessment from facial expression images utilizing Statistical Frei-Chen Mask (SFCM)-based features and DenseNet.pdf]]（2024-0） | “Chehra”人脸检测器裁剪面部区域；<br>Frei-Chen边缘检测器提取SFCM纹理特征<br>DenseNet提取深度特征；<br>将两个源的特征向量连接                        | 最终特征向量使用RBF-ELM分类器进行训练                                                                                  |
 
 # 公开数据库
-github总结仓库[A list of pain recognition databases that are publicly available for research](https://github.com/philippwerner/pain-database-list?tab=readme-ov-file)
+总结仓库：[A list of pain recognition databases that are publicly available for research](https://github.com/philippwerner/pain-database-list?tab=readme-ov-file)
 
-| 名称                                                                                                                        | 数据来源                                           | 数据规模                                                           | 注释/标签                                                                                       |
-| ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| UNBC-McMaster shoulder pain database([[Automatic pain monitoring using the UNBC-McMaster shoulder.pdf]])<br>**似乎已经无法申请？** | 肩关节疼痛：129名**成人**（63名男性，66名女性）                  | 200个图像序列（总帧：48398；疼痛帧：8369）                                    | 【帧级别】12个AU及其强度（A-E），66个面部标志，PSPI评分<br>【序列级别】通过VAS、感觉量表、情感动机量表进行自我报告或通过观察员评定疼痛强度（OPI）进行观察员报告 |
-| BioVid Heat Pain Database<br>[申请页面](https://www.nit.ovgu.de/nit/en/BioVid-p-1358.html)                                    | 【A】<br>急性热痛：87例**成人**（44例男性20-64岁，43例女性20-65岁） | 8700个视频（疼痛视频6960）包含正面视频、皮肤电反应（GSR）、心电图（ECG）、斜方肌EMG             | 【序列级别】基线（无疼痛）+4个疼痛刺激强度水平                                                                    |
-|                                                                                                                           | 【B】<br>急性热痛：18- 65岁86名**成人**（42名男性，44名女性）      | 8600个视频（疼痛视频6880个;面部EMG电极导致面部部分闭塞）包含正面视频、GSR、ECG、斜方肌、皱眉肌和颧肌EMG | 【序列级别】基线（无疼痛）+4个疼痛刺激强度水平                                                                    |
-|                                                                                                                           | 【C】<br>急性热痛：18- 65岁87名**成人**（44名男性，43名女性）      | 87个视频（A部分的长版本，每个主题一个视频）包含正面视频、GSR、ECG、斜方肌EMG、疼痛刺激标签            | 【片段级别】疼痛刺激                                                                                  |
-|                                                                                                                           | 【D】<br>表演的疼痛和基本情绪：90名成人                        | 630个1分钟视频                                                      | 【片段级别】快乐、悲伤、愤怒、厌恶、恐惧、疼痛、中性                                                                  |
-| Infant COPE                                                                                                               | 足跟采血：18-72小时26例**新生儿**（13例男性，13例女性;高加索人）       | 204张面部图像（疼痛图像：60张）                                             | 【帧级别】疼痛、哭泣、脚跟摩擦、鼻空气刺激、休息                                                                    |
-| FENP([[A Database of Neonatal Facial Expression for Pain Analysis.pdf]])                                                  | 2天-4周106名**新生儿**                               | 4种分类各2750张图像                                                   | 【帧级别】剧痛、轻度疼痛、哭泣、平静                                                                          |
-| MintPAIN([[Deep Multimodal Pain Recognition.pdf]])<br>[申请页面](https://vap.aau.dk/mintpain-database/)                       | 电刺激：20名**成人**                                  | 3200个帧序列（`20*2`次实验，每次实验40次疼痛刺激生成80个文件夹）且包含RGB、深度、热成像三个模态       | 【序列级别】基线（无疼痛）+4个疼痛刺激强度水平                                                                    |
+| 名称                                                                                                                                    | 数据来源                                      | 数据规模                                                     | 注释/标签                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| UNBC-McMaster shoulder pain database([[Automatic pain monitoring using the UNBC-McMaster shoulder.pdf]])<br>**似乎已经无法申请？**<br>疼痛：肩关节疼痛 | 129名**成人**（63名男性，66名女性）                   | 200个图像序列（总帧：48398；疼痛帧：8369）                              | 【帧级别】12个AU及其强度（A-E），66个面部标志，PSPI评分<br>【序列级别】通过VAS、感觉量表、情感动机量表进行自我报告或通过观察员评定疼痛强度（OPI）进行观察员报告 |
+| BioVid Heat Pain Database<br>[申请页面](https://www.nit.ovgu.de/nit/en/BioVid-p-1358.html)<br>疼痛：急性热痛<br>                                 | 【A】<br>87例**成人**（44例男性20-64岁，43例女性20-65岁） | 8700次实验（疼痛6960），包含正面无遮挡视频+皮肤电反应（GSR）+心电图（ECG）+肌电图（EMG）   | 【序列级别】基线（无疼痛）+4个疼痛刺激强度水平                                                                    |
+|                                                                                                                                       | 【B】<br>18- 65岁86名**成人**（42名男性，44名女性）      | 8600次实验（疼痛6880），包含面部有遮挡视频+GSR+ECG+斜方肌、皱眉肌和颧肌的肌电图（EMG）    | 【序列级别】基线（无疼痛）+4个疼痛刺激强度水平                                                                    |
+|                                                                                                                                       | 【C】<br>18- 65岁87名**成人**（44名男性，43名女性）      | 87个视频（A部分的长版本，每个主题一个视频）包含正面视频+GSR+ECG+EMG+疼痛刺激标签         | 【片段级别】疼痛刺激                                                                                  |
+| 疼痛：表演的疼痛和基本情绪                                                                                                                         | 【D】<br>90名成人                              | 630个1分钟视频                                                | 【片段级别】快乐、悲伤、愤怒、厌恶、恐惧、疼痛、中性                                                                  |
+| Infant COPE                                                                                                                           | 足跟采血：18-72小时26例**新生儿**（13例男性，13例女性）       | 204张面部图像（疼痛图像：60张）                                       | 【帧级别】疼痛、哭泣、脚跟摩擦、鼻空气刺激、休息                                                                    |
+| FENP([[A Database of Neonatal Facial Expression for Pain Analysis.pdf]])                                                              | 2天-4周106名**新生儿**                          | 4种分类各2750张图像                                             | 【帧级别】剧痛、轻度疼痛、哭泣、平静                                                                          |
+| MintPAIN([[Deep Multimodal Pain Recognition.pdf]])<br>[申请页面](https://vap.aau.dk/mintpain-database/)                                   | 电刺激：20名**成人**                             | 3200个帧序列（`20*2`次实验，每次实验40次疼痛刺激生成80个文件夹）且包含RGB、深度、热成像三个模态 | 【序列级别】基线（无疼痛）+4个疼痛刺激强度水平                                                                    |
 
 # think
 - 不同个体之间对痛苦耐受程度不同，需要对不同个体的差异有适用性。

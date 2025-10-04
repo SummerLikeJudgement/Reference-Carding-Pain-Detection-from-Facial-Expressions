@@ -1,0 +1,11 @@
+- 学习任务
+	- 离散 #discrete-pain
+	- 连续 #continuous-pain 
+	- 二分类 #pain-nopain
+ - 文献内容
+	 - 多模态疼痛识别 #MPR
+		 - 视频 #vedio
+		 - 心电 #ecg
+		 - 肌电 #gsr 
+	- 综述 #survey
+	- 数据库 #dataset
