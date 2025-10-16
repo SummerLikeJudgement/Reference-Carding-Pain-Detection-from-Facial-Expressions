@@ -3,9 +3,11 @@
 	- 连续 #continuous-pain 
 	- 二分类 #pain-nopain
  - 文献内容
-	 - 多模态疼痛识别 #MPR
-		 - 视频 #vedio
-		 - 心电 #ecg
-		 - 肌电 #gsr 
-	- 综述 #survey
-	- 数据库 #dataset
+	 - 多模态疼痛识别 #MPR 
+	 - 单模态疼痛识别 #SPR 
+	 - 综述 #survey 
+	 - 数据库 #dataset
+- 模态
+	 - 视频 #vedio
+	 - 心电 #ecg
+	 - 肌电 #gsr 
